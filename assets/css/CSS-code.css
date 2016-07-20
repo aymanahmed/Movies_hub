@@ -1,0 +1,145 @@
+body {
+    font-family: Open Sans;
+}
+
+h1 {
+    text-align: center;
+}
+
+#title {
+    text-decoration: underline;
+}
+
+#quiz {
+text-indent: 10px;
+	color:#000000;
+    display:none;
+	 position:relative;
+	 float:;
+	 margin: -40px 0 -50px 200px ;
+	 
+
+}
+
+.button {
+    border:4px solid;
+    border-radius:5px;
+    width: 152px;
+	height:59px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+	background-image:url("../images/oscar-game_19.gif");
+    color: black;
+}
+.button1 {
+    border:4px solid;
+    border-radius:5px;
+    width: 152px;
+	height:59px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+	background-image:url("../images/oscar-game_17.gif");
+    color: black;
+}
+.button2 {
+    border:4px solid;
+    border-radius:5px;
+    width: 150px;
+	height:59px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+	background-image:url("../images/oscar-game_18.gif");
+    color: black;
+    margin-top: 10%
+}
+
+.button.active {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+.button1.active {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+.button2.active {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+#answers{
+    margin-top: 18px;
+}
+.li{
+    background-color: rgba(147, 147, 149, 0.74);
+    box-shadow: 2px 2px 0px 2px rgb(100, 100, 100);    
+    max-width: 60%;
+    border-radius: 10px;
+    padding: 7px;
+    color: white;
+    margin-top: 5px;
+    border: 1px solid rgb(100, 100, 100);
+}
+.li:hover{
+    background-color: #07aaeb;
+}
+
+.oscar{
+    margin-left: 30%;
+    height: 400px;
+}
+
+button {
+    position: relative;
+    float:right;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+#container {
+    width:100%;
+	height:648px;
+	background-image:url("../images/oscar game2.jpg");
+	    margin:auto;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+
+}
+
+#quest{
+    background: rgba(124, 124, 125, 0.66) none repeat scroll 0% 0%;
+max-width: 80%;
+box-shadow: 7px 5px 2px rgb(100, 100, 100);
+border: 1px solid rgb(100, 100, 100);
+padding: 10px;
+border-radius: 16px;
+}
+
+#question_label{
+    color: black;
+}
+
+#quest_content{
+    font-weight: bold;
+color: white;
+}

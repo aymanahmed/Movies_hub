@@ -1,0 +1,86 @@
+div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html,body{
+    height: 100%;
+}
+#rec #rec #container {
+    width:240px;
+    height:30%;
+    margin:auto auto auto 30%;
+    position:relative;
+}
+
+#rec #main {
+    position:absolute;
+    margin-left: 43%;
+    margin-top: 24px;
+}
+
+
+#rec #searchForm fieldset {
+    width:400px;
+    position:relative;
+    display:block;
+}
+
+#rec div.input {
+    width:240px;
+    padding:5px 15px 7px 15px;
+    border-radius:20px;
+    border:1px solid #c6d2db;
+    border-top:1px solid #b4c1cb;
+    box-shadow:inset 0 1px 2px rgba(0,0,0,0.08);
+    background:#e8edf1;
+}
+
+#rec div.input.focus {
+    border:1px solid #9ecbe2;
+    box-shadow:0 0 6px #abdcff, inset 0 1px 2px rgba(0,0,0,0.08);
+    background: #fff;
+    margin-left: -60px;
+}
+
+#rec input#s {
+    width:100%;
+    border:0;
+    border-radius:20px;
+    background:transparent;
+    height:24px;
+    color:#b4bdc4;
+    text-shadow:0 1px 1px #fff;
+}
+
+#rec input#s:focus {
+    outline:none;
+    color: #000;
+
+}
+
+#rec input#searchSubmit {
+    width:19px;
+    height:19px;
+    text-indent:-9999px;
+    overflow:hidden;
+    background:url(../images/search-icon.png) no-repeat;
+    border:0;
+    position:absolute;
+    top:7px; right:13px;
+    z-index:5;
+    display:none;
+    cursor:pointer;
+}

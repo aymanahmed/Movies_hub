@@ -1,0 +1,16 @@
+body { 
+  font: 14px helvetica neue, helvetica, arial, sans-serif;
+}
+
+#cy {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+h4{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	margin: 0 0 20px;
+}

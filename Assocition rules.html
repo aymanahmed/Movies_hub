@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>MOVIES HUB : Movies analytics</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
+    <!-- Font Awesome -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">    
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/> 
+    <!-- Fancybox slider -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
+    <!-- Animate css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css"/> 
+    <!-- Bootstrap progressbar  --> 
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-progressbar-3.3.4.css"/> 
+     <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
+
+    <!-- Main Style -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+
+    <!-- Open Sans for body font -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-- Lato for Title -->
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'> 
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+     
+ 
+  </head>
+  
+  <body>
+
+  <!-- BEGAIN PRELOADER -->
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
+   <!-- END PRELOADER -->
+
+   <!-- SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+   <!-- END SCROLL TOP BUTTON -->
+
+    
+
+  
+
+  <!-- BEGIN MENU -->
+  <section id="menu-area">      
+    <nav class="navbar navbar-default" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- LOGO -->              
+          <!-- TEXT BASED LOGO -->
+          <a class="navbar-brand" href="home.html">MOVIES HUB</a>              
+          <!-- IMG BASED LOGO  -->
+          <!-- <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="logo"></a> -->                    
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+            <li ><a href="home.html">Home</a></li>
+             <li class="dropdown">
+              <li  ><a href="#" class="dropdown-toggle" data-toggle="dropdown" >Movies analytics <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                               
+                <li class="active"><a href="Assocition rules.html">Association rules</a></li>
+                <li><a href="Clustering.html">Clustering</a></li>
+                <li><a href="classification.html">Classification</a></li>           
+              </ul>
+            </li>
+            <li><a href="#">Top Movies</a></li>
+            <li ><a href="oscar game.html" >Oscar Game </a></li>
+			<li><a href="Egyptian Corner.html">Egyptian Corner</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>                     
+        </div><!--/.nav-collapse -->
+      </div>     
+    </nav>
+  </section>
+  <!-- END MENU --> 
+  
+  <!-- Start single page header -->
+  <section id="single-page-header">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="single-page-header-left">
+              <h2>Association rules</h2>
+              
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End single page header -->
+  
+  <!-- Start Feature -->
+  <section id="feature">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-area">
+            <h2 class="title">Association rules</h2>
+            <span class="line"></span>
+            <p>the Targeted two types of associations are associations between movie genres & associations between movie staff members
+                    Genre Association Rules:
+                    The first subset we used was reduced to only include the genre attribute to reduce the computing complexity of the apriori algorithm                     when run on the data . 
+                    Genres were initially brought as a list of elements here is an example of the structure of the genres attribute:
+ 
+                    In our first try to apply the apriori algorithm on the data ,Genres were fractured into three genre components  to be handled                     appropriately in preparation to pass the data to the apriori algorithm 
+             </p>
+          </div>
+        </div>  
+        
+         <div class="title-area">
+            <h2 class="title">Genre Association</h2>
+            <span class="line"></span>
+        </div>
+        
+        
+        <div class="col-md-12">
+          <div class="feature-content">
+            <div class="row">
+              <div class="col-md-4 col-sm-6">
+                <div class="single-feature wow zoomIn">
+                  <h4 class="feat-title" align="center">Graph for 12 rules</h4>
+              <a href="assets/images/association rules 1.jpeg"onClick="return popup(this,'Graph for 12 rules')">
+                      <img src="assets/images/association rules 1.jpeg"width="300"height="350"style="margin-left:35px"></a>
+                       <p> A Graph-based visualization with genres as vertices visualize association rules using vertices and edges, where vertices                           typically represent items or itemsets and edges indicate relationships in terms of rules.</p>
+                </div></div> <div class="col-md-4 col-sm-6">
+                <div class="single-feature wow zoomIn">
+                 <h4 class="feat-title" align="center">Matrix with 16 rules</h4>
+                  <A HREF="assets/images/association rules 2.JPG"onClick="return popup(this,'Grouped matrix of 16                              rules')">
+                     <img src="assets/images/association rules 2.JPG" width="300" height="350" style="margin-left:25px"></A>
+                       <p>Matrix-based visualization with colored squares</p>
+               </div> </div><div class="col-md-4 col-sm-6">
+                <div class="single-feature wow zoomIn">
+                 <h4 class="feat-title" align="center">Grouped matrix of 16 rules</h4>
+                    <A HREF="assets/images/association rules 3.JPG"onClick="return popup(this,'Grouped matrix of 16 rules')">                       <img                         src="assets/images/association rules 3.JPG" width="400" height="350"></A>
+                         <p> A balloon plot with the lhs of the rules as columns and rhs as rows. The color of each balloon represents the lift                             and the size of the balloon shows the support.</p>
+                      
+                     
+                </div>
+              </div>
+              
+              
+              <div class="col-md-4 col-sm-6">
+                <div class="single-feature wow zoomIn">
+                  <h4 class="feat-title" align="center">Word cloud</h4>
+                   <A HREF="assets/images/association rules 4.JPG" onClick="return popup(this, 'Word cloud')">
+                    <img src="assets/images/association rules 4.JPG" width="350" height="300"></A>
+                      <p> word cloud generated using the strings of the full association rules , starting by lowering the threshold of the apriori                           algorithm to generate more rules to create a word cloud </p>
+                </div>
+              </div>
+              
+              
+              <div class="col-md-4 col-sm-6">
+                <div class="single-feature wow zoomIn">
+                  <h4 class="feat-title" align="center">Cytoscape</h4>
+                    <a href="assets/js/interactive genres rules/index.html"> 
+                      <img src="assets/images/association rules 5.JPG" width="350" height="300"> </a>
+                       <p>Cytoscape.jsit's a javascript library for interactive graphs we transformed the generated rules from before into nodes and edges                           format to make the graph the final result was an interactive graph supporting zooming and dragging the elements inside it the                            code is included in the appendix this is a view of the final result.</p>
+                </div>
+              </div>
+              
+              
+              
+               <div class="title-area">
+            <h2 class="title">Staff association</h2>
+            <span class="line"></span>
+              </div>
+              
+              
+              
+              <div class="col-md-4 col-sm-6">
+                <div class="single-feature wow zoomIn">
+                 <h4 class="feat-title"  align="center">Frequency plot</h4>
+                  <A HREF="assets/images/association rules 6.JPG" onClick="return popup(this, 'Frequency plot')">
+                  <img src="assets/images/association rules 6.JPG" width="400" height="300" ></A>
+                   <p>With appling the same process for staff association to find the frequent item sets that appear together in our data set the code for                      all the processes is included in the appendix,We reduced the support threshold because of the nature of staff names and had to deal                        with problems we didn't face in the previous process of genre associations which were spaces and special characters in names and                         the redundant rules generated for the staff and records with redundant names as staff members could have multiple rules in the                            same movie.</p>
+                </div>
+              </div>
+               
+               
+                <div class="col-md-4 col-sm-6">
+                <div class="single-feature wow zoomIn">
+                  <h4 class="feat-title" align="center">Graph for 12 rules</h4>
+                    <A HREF="assets/images/association rules 7.JPG" onClick="return popup(this, 'Matrix with 12 rules')">
+                    <img src="assets/images/association rules 7.JPG" width="400" height="300"></A>
+                       <p> Staff association Graph-based visualization with genres as vertices visualize association rules using vertices and edges, where                          vertices typically represent items or itemsets and edges indicate relationships in terms of rules.</p>
+             </div>
+           </div> 
+                
+             
+              <div class="col-md-4 col-sm-6">
+                <div class="single-feature wow zoomIn">
+                   <h4 class="feat-title" align="center">Staff association Cytoscape</h4>
+                     <a href="assets/js/interactive staff rules/index.html">
+                       <img src="assets/images/association rules 10.JPG" width="400" height="300"></a>
+                  <p>Staff association javascript interactive rules.</p>
+                </div>
+              </div>  
+             
+             
+             
+               <div class="col-md-4 col-sm-6">
+                <div class="single-feature wow zoomIn">
+                  <h4 class="feat-title" align="center">Matrix with 12 rules</h4>
+                    <A HREF="assets/images/association rules 8.JPG" onClick="return popup(this, 'Matrix with 12 rules')">
+                    <img src="assets/images/association rules 8.JPG" width="400" height="300"></A>
+                       <p> Staff association Matrix-based visualization with colored squares balloon plot with the lhs of the rules as columns and rhs as                            rows.</p>
+             </div>
+           </div>
+              
+              <div class="col-md-4 col-sm-6">
+                <div class="single-feature wow zoomIn">
+                  <h4 class="feat-title" align="center">Grouped matrix of 16 rules</h4>
+                    <A HREF="assets/images/association rules 9.JPG" onClick="return popup(this, 'Matrix with 12 rules')">
+                    <img src="assets/images/association rules 9.JPG" width="400" height="300"></A>
+                       <p> Staff association balloon plot with the lhs of the rules as columns and rhs as rows, The color of each balloon represents the                             lift and the size of the balloon shows the support.</p>
+              </div>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Feature -->
+
+ 
+
+  <!-- Start footer -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="footer-left">
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="footer-right">
+            <a href="https://www.facebook.com/groups/279030735782663/"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/movies_hub2016"><i class="fa fa-twitter"></i></a>
+            <a href="https://plus.google.com/u/0/115851921232094709490/posts?hl=en"><i class="fa fa-google-plus"></i></a>
+            <a href="https://www.linkedin.com/in/movies-hub-490934124?trk=nav_responsive_tab_profile_pic"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.pinterest.com/movieshub2016/"><i class="fa fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End footer -->
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!-- Slick Slider -->
+    <script type="text/javascript" src="assets/js/slick.js"></script>    
+    <!-- mixit slider -->
+    <script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
+    <!-- Add fancyBox -->        
+    <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
+   <!-- counter -->
+    <script src="assets/js/waypoints.js"></script>
+    <script src="assets/js/jquery.counterup.js"></script>
+    <!-- Wow animation -->
+    <script type="text/javascript" src="assets/js/wow.js"></script> 
+    <!-- progress bar   -->
+    <script type="text/javascript" src="assets/js/bootstrap-progressbar.js"></script>  
+    
+   
+    <!-- Custom js -->
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <SCRIPT TYPE="text/javascript"> <!-- function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, windowname, 'width=400,height=200,scrollbars=yes'); return false; } //--> </SCRIPT>
+  </body>
+</html>
